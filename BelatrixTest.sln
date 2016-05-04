@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelatrixTest.Presentation", "BelatrixTest.Presentation\BelatrixTest.Presentation.csproj", "{A3E1DEB2-E789-49C2-91AB-037C28091E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelatrixTest.Application", "BelatrixTest.Application\BelatrixTest.Application.csproj", "{2A2BB168-09B7-4E50-98B2-97BCEA2C5509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelatrixTest.Application.Interface", "BelatrixTest.Application.Interface\BelatrixTest.Application.Interface.csproj", "{1C53570F-8580-4E5F-B863-E0DF32472B99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelatrixTest.Repository", "BelatrixTest.Repository\BelatrixTest.Repository.csproj", "{B05C2B48-744B-4945-BB56-FD639FF32918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelatrixTest.Common", "BelatrixTest.Common\BelatrixTest.Common.csproj", "{63E558EF-B263-449E-B353-FA18EEE75D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{4D199B31-42AD-4FCF-8499-443FBAE001A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Repository", "5. Repository", "{1D6B74AD-F7DF-4C22-AB7B-464BE3441740}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{3118B887-F502-479E-A0E1-6DF3C287830C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Common", "4. Common", "{04B8A51C-76E9-40A2-ADA0-1C84DA97ACF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelatrixTest.Controller", "BelatrixTest.Controller\BelatrixTest.Controller.csproj", "{4A76AEE9-5C94-4F38-AEB1-EAF7172653D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelatrixTest.UnitTest", "BelatrixTest.UnitTest\BelatrixTest.UnitTest.csproj", "{CE4768F7-FB43-4BAA-B644-275C2391EBF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Unit Test", "6. Unit Test", "{E9FB864A-BAEF-419B-9F18-18E01A7E7143}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain", "3. Domain", "{4DF62DC7-0A3B-47DC-B538-6F5FF541EE2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelatrixTest.Domain", "BelatrixTest.Domain\BelatrixTest.Domain.csproj", "{EC78D9A3-877F-4476-9D5B-5225DF32C21A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3E1DEB2-E789-49C2-91AB-037C28091E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E1DEB2-E789-49C2-91AB-037C28091E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E1DEB2-E789-49C2-91AB-037C28091E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E1DEB2-E789-49C2-91AB-037C28091E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2BB168-09B7-4E50-98B2-97BCEA2C5509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2BB168-09B7-4E50-98B2-97BCEA2C5509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2BB168-09B7-4E50-98B2-97BCEA2C5509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2BB168-09B7-4E50-98B2-97BCEA2C5509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C53570F-8580-4E5F-B863-E0DF32472B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C53570F-8580-4E5F-B863-E0DF32472B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C53570F-8580-4E5F-B863-E0DF32472B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C53570F-8580-4E5F-B863-E0DF32472B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05C2B48-744B-4945-BB56-FD639FF32918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05C2B48-744B-4945-BB56-FD639FF32918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05C2B48-744B-4945-BB56-FD639FF32918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05C2B48-744B-4945-BB56-FD639FF32918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E558EF-B263-449E-B353-FA18EEE75D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E558EF-B263-449E-B353-FA18EEE75D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E558EF-B263-449E-B353-FA18EEE75D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E558EF-B263-449E-B353-FA18EEE75D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A76AEE9-5C94-4F38-AEB1-EAF7172653D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A76AEE9-5C94-4F38-AEB1-EAF7172653D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A76AEE9-5C94-4F38-AEB1-EAF7172653D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A76AEE9-5C94-4F38-AEB1-EAF7172653D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4768F7-FB43-4BAA-B644-275C2391EBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4768F7-FB43-4BAA-B644-275C2391EBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4768F7-FB43-4BAA-B644-275C2391EBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4768F7-FB43-4BAA-B644-275C2391EBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC78D9A3-877F-4476-9D5B-5225DF32C21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC78D9A3-877F-4476-9D5B-5225DF32C21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC78D9A3-877F-4476-9D5B-5225DF32C21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC78D9A3-877F-4476-9D5B-5225DF32C21A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3E1DEB2-E789-49C2-91AB-037C28091E06} = {4D199B31-42AD-4FCF-8499-443FBAE001A3}
+		{2A2BB168-09B7-4E50-98B2-97BCEA2C5509} = {3118B887-F502-479E-A0E1-6DF3C287830C}
+		{1C53570F-8580-4E5F-B863-E0DF32472B99} = {3118B887-F502-479E-A0E1-6DF3C287830C}
+		{B05C2B48-744B-4945-BB56-FD639FF32918} = {1D6B74AD-F7DF-4C22-AB7B-464BE3441740}
+		{63E558EF-B263-449E-B353-FA18EEE75D7B} = {04B8A51C-76E9-40A2-ADA0-1C84DA97ACF7}
+		{4A76AEE9-5C94-4F38-AEB1-EAF7172653D1} = {4D199B31-42AD-4FCF-8499-443FBAE001A3}
+		{CE4768F7-FB43-4BAA-B644-275C2391EBF1} = {E9FB864A-BAEF-419B-9F18-18E01A7E7143}
+		{EC78D9A3-877F-4476-9D5B-5225DF32C21A} = {4DF62DC7-0A3B-47DC-B538-6F5FF541EE2A}
+	EndGlobalSection
+EndGlobal
